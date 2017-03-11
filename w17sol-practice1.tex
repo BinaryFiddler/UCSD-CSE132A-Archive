@@ -31,12 +31,90 @@
 {\bf Problem 1}
 
 \begin{enumerate}
-
 \item [(i)] Construct the pattern corresponding to the query:
 
-$$\{ s: sid \mid \exists u \in student [s(sid) = u(sid)] $$
-$$\wedge \forall p \in prerequisite[p(cid) = "CSE132X" $$
-$$\rightarrow \exists r \in record [r(sid) = s(sid) \wedge r(cid) = p(precid) \wedge r(grade) \geq 2]]\}.$$
+The pattern $P$ corresponding to $Q$ is
+\begin{center}
+	\begin{tabular}{ c c c c }
+		A & B & C & D \\ 
+		$a_1$& - & c & - \\  
+		- & b & 8 & - \\
+		$a_1$ & b & - & d\\
+		- & 5 & - & d    
+	\end{tabular}
+\end{center}
+The answer is:
+\begin{center}
+	\begin{tabular}{ c c c }
+		B & C & D \\
+		b & c & d    
+	\end{tabular}
+\end{center}
+
+\item [(ii)] Minimize the pattern in (i)
+
+Since $B \rightarrow D$:
+
+\begin{center}
+	\begin{tabular}{ c c c c }
+		A & B & C & D \\ 
+		$a_1$& - & c & - \\  
+		- & b & 8 & d \\
+		$a_1$ & b & - & d\\
+		- & 5 & - & d    
+	\end{tabular}
+\end{center}
+
+Since $D \rightarrow C$:
+
+\begin{center}
+	\begin{tabular}{ c c c c }
+		A & B & C & D \\ 
+		$a_1$& - & c & - \\  
+		- & b & 8 & d \\
+		$a_1$ & b & 8 & d\\
+		- & 5 & 8 & d    
+	\end{tabular}
+\end{center}
+
+Since $C \rightarrow B$:
+
+\begin{center}
+	\begin{tabular}{ c c c c }
+		A & B & C & D \\ 
+		$a_1$& - & c & - \\  
+		- & 5 & 8 & d \\
+		$a_1$ & 5 & 8 & d\\
+		- & 5 & 8 & d    
+	\end{tabular}
+\end{center}
+After folding mapping:
+\begin{center}
+	\begin{tabular}{ c c c c }
+		A & B & C & D \\ 
+		$a_1$& - & c & - \\  
+		$a_1$ & 5 & 8 & d\\  
+	\end{tabular}
+\end{center}
+
+The answer is:
+\begin{center}
+	\begin{tabular}{ c c c }
+		B & C & D \\
+		5 & c & d    
+	\end{tabular}
+\end{center}
+
+
+
+\item [(iii)] Construct from the minimized pattern a corresponding
+minimized SQL query
+
+\begin{tabular}{l}
+	{\bf select} $5 \ AS \ B, t_1.C, t_2.D$ \\
+	{\bf from} $R~ t_1, R~ t_2$ \\
+	{\bf where} $t_2.B = 5$ and $t_1.A = t_2.A$ and $t_2.C = 8$ 
+\end{tabular}
 
 \clearpage
 
@@ -71,12 +149,13 @@ Since $A$ cannot be determined by any given functional dependency. $A$ must be p
 
 $ABCDE \ violation: C \rightarrow D$ since $C+ = CD$\\
 $CD, ABCE \ violation: B \rightarrow CE$ since $B+ = BCDE$\\
-$CD, BCE, AB \ no \ violation$
+$CD, BCE, AB \ no \ violation$\\
+Hence the final decomposition is $\{CD, BCE, AB\}$
 
 
 \item [(iii)] Is the decomposition obtained in (ii) dependency preserving with respect to F.
 
-No
+No. Dependency $AC \rightarrow BDE$ is not preserved. 
 
 \item [(iv)] Find 3NF decomposition of R with lossless join and dependency preserving with respect to F. Is the decomposition also in BCNF?
 
@@ -95,7 +174,7 @@ $AC \rightarrow D$ is redundant because $C \rightarrow D$\\
 $AB \rightarrow C$ is redundant because $B \rightarrow C$\\
 $F = \{C \rightarrow D, B \rightarrow E, AC \rightarrow B, B \rightarrow C \}$
 
-
+Hence the final decomposition is $\{CD, BE, ACB, BC\}$. It is not in BCNF since there is a violation in $ACB$ where $B+ = BCDE$ which doesn't include A.
 
 
 \clearpage
