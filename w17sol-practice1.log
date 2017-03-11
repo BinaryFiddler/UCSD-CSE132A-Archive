@@ -1,0 +1,302 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  10 MAR 2017 16:40
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**w17sol-practice1.tex
+(./w17sol-practice1.tex
+LaTeX2e <2016/03/31>
+Babel <3.9r> and hyphenation patterns for 83 language(s) loaded.
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/ltxdoc.cls
+Document Class: ltxdoc 2015/03/26 v2.0w Standard LaTeX documentation class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/base/doc.sty
+Package: doc 2016/02/15 v2.1g Standard LaTeX documentation package (FMi)
+\c@StandardModuleDepth=\count87
+\guard@level=\count88
+\MacrocodeTopsep=\skip43
+\MacroIndent=\dimen103
+\macro@cnt=\count89
+\MacroTopsep=\skip44
+\index@excludelist=\toks14
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2016/04/07 v1.8p multicolumn formatting (FMi)
+\c@tracingmulticols=\count90
+\mult@box=\box26
+\multicol@leftmargin=\dimen104
+\c@unbalance=\count91
+\c@collectmore=\count92
+\doublecol@number=\count93
+\multicoltolerance=\count94
+\multicolpretolerance=\count95
+\full@width=\dimen105
+\page@free=\dimen106
+\premulticols=\dimen107
+\postmulticols=\dimen108
+\multicolsep=\skip45
+\multicolbaselineskip=\skip46
+\partial@page=\box27
+\last@line=\box28
+\maxbalancingoverflow=\dimen109
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count96
+\c@finalcolumnbadness=\count97
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+\mc@col@check@num=\count98
+)
+\IndexMin=\dimen113
+\c@IndexColumns=\count99
+\GlossaryMin=\dimen114
+\c@GlossaryColumns=\count100
+\check@sum=\count101
+\bslash@cnt=\count102
+\wrong@table=\toks15
+\c@CodelineNo=\count103
+))
+Package doc Info: | not a short reference for \verb(*) on input line 2.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/qtree/qtree.sty
+Package: 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+Package: qtree 2008/12/12 v.3.1bQtree: tree-drawing for linguistics
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pdftex-def/pdftex.def
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count104
+)
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(/usr/local/texlive/2016/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+(/usr/local/texlive/2016/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+\pIIe@GRAPH=\toks16
+\@arclen=\dimen115
+\@arcrad=\dimen116
+\@tempdimd=\dimen117
+)
+\c@treecount=\count105
+\c@branchcount=\count106
+\parentbox=\box52
+\treebox=\box53
+\treeboxone=\box54
+\treeboxtwo=\box55
+\treeboxthree=\box56
+\treeboxfour=\box57
+\treeboxfive=\box58
+\treeboxsix=\box59
+\treeboxseven=\box60
+\treeboxeight=\box61
+\treeboxnine=\box62
+\treeboxten=\box63
+\treeboxeleven=\box64
+\treeboxtwelve=\box65
+\treeboxthirteen=\box66
+\treeboxfourteen=\box67
+\treeboxfifteen=\box68
+\treeboxsixteen=\box69
+\treeboxseventeen=\box70
+\treeboxeighteen=\box71
+\treeboxnineteen=\box72
+\treeboxtwenty=\box73
+\treeoffsetone=\skip47
+\treeoffsettwo=\skip48
+\treeoffsetthree=\skip49
+\treeoffsetfour=\skip50
+\treeoffsetfive=\skip51
+\treeoffsetsix=\skip52
+\treeoffsetseven=\skip53
+\treeoffseteight=\skip54
+\treeoffsetnine=\skip55
+\treeoffsetten=\skip56
+\treeoffseteleven=\skip57
+\treeoffsettwelve=\skip58
+\treeoffsetthirteen=\skip59
+\treeoffsetfourteen=\skip60
+\treeoffsetfifteen=\skip61
+\treeoffsetsixteen=\skip62
+\treeoffsetseventeen=\skip63
+\treeoffseteighteen=\skip64
+\treeoffsetnineteen=\skip65
+\treeoffsettwenty=\skip66
+\treeshiftone=\skip67
+\treeshifttwo=\skip68
+\treeshiftthree=\skip69
+\treeshiftfour=\skip70
+\treeshiftfive=\skip71
+\treeshiftsix=\skip72
+\treeshiftseven=\skip73
+\treeshifteight=\skip74
+\treeshiftnine=\skip75
+\treeshiftten=\skip76
+\treeshifteleven=\skip77
+\treeshifttwelve=\skip78
+\treeshiftthirteen=\skip79
+\treeshiftfourteen=\skip80
+\treeshiftfifteen=\skip81
+\treeshiftsixteen=\skip82
+\treeshiftseventeen=\skip83
+\treeshifteighteen=\skip84
+\treeshiftnineteen=\skip85
+\treeshifttwenty=\skip86
+\treewidthone=\skip87
+\treewidthtwo=\skip88
+\treewidththree=\skip89
+\treewidthfour=\skip90
+\treewidthfive=\skip91
+\treewidthsix=\skip92
+\treewidthseven=\skip93
+\treewidtheight=\skip94
+\treewidthnine=\skip95
+\treewidthten=\skip96
+\treewidtheleven=\skip97
+\treewidthtwelve=\skip98
+\treewidththirteen=\skip99
+\treewidthfourteen=\skip100
+\treewidthfifteen=\skip101
+\treewidthsixteen=\skip102
+\treewidthseventeen=\skip103
+\treewidtheighteen=\skip104
+\treewidthnineteen=\skip105
+\treewidthtwenty=\skip106
+\daughteroffsetone=\skip107
+\daughteroffsettwo=\skip108
+\daughteroffsetthree=\skip109
+\daughteroffsetfour=\skip110
+\branchwidthone=\skip111
+\branchwidthtwo=\skip112
+\branchwidththree=\skip113
+\branchwidthfour=\skip114
+\parentoffset=\skip115
+\treeoffset=\skip116
+\daughteroffset=\skip117
+\branchwidth=\skip118
+\parentwidth=\skip119
+\treewidth=\skip120
+\qta=\toks17
+\qtb=\toks18
+\nbranches=\count107
+\qroofx=\count108
+\qroofy=\count109
+\@qrscratchbox=\box74
+)
+(./w17sol-practice1.aux)
+\openout1 = `w17sol-practice1.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+Package doc Info: Made | a short reference for \verb on input line 18.
+
+(/usr/local/texlive/2016/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count110
+\scratchdimen=\dimen118
+\scratchbox=\box75
+\nofMPsegments=\count111
+\nofMParguments=\count112
+\everyMPshowfont=\toks19
+\MPscratchCnt=\count113
+\MPscratchDim=\dimen119
+\MPnumerator=\count114
+\makeMPintoPDFobject=\count115
+\everyMPtoPDFconversion=\toks20
+)
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 37.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 37.
+ [1
+
+{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+[2
+
+] (./w17sol-practice1.aux) ) 
+Here is how much of TeX's memory you used:
+ 1639 strings out of 493014
+ 21551 string characters out of 6133351
+ 89370 words of memory out of 5000000
+ 5215 multiletter control sequences out of 15000+600000
+ 7292 words of font info for 26 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,4n,21p,247b,176s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2016/texmf-dist/fonts/type1/pub
+lic/amsfonts/cm/cmbx10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/a
+msfonts/cm/cmsy10.pfb>
+Output written on w17sol-practice1.pdf (2 pages, 67949 bytes).
+PDF statistics:
+ 31 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+

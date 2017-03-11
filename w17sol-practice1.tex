@@ -1,0 +1,107 @@
+\documentclass[11pt,a4paper]{ltxdoc}
+\DeleteShortVerb{\|}
+\AtBeginDocument{\OnlyDescription}   % There's no code, anyway
+
+% Like \DescribeMacro, but arbitrary text
+\def\marginpost#1{\leavevmode \marginpar{~\hfill\texttt{#1}}\ignorespaces}
+
+% The name of the package, capitalized or not.
+\def\QT{\textsf{\emph{Qtree}}}
+\def\Qt{\textsf{\emph{qtree}}}
+
+\def\pstyle#1{\textsf{#1}} % style filenames
+
+\def\argplain#1{\textit{$\langle$#1$\rangle$}} % Like \marg, but without { }
+\usepackage{qtree}
+
+
+\begin{document}
+\begin{center}
+{\bf CSE 132A}  \\
+{\bf Winter 2017} \\
+\vspace{4mm}
+{\large \bf Solutions to Homework 2} \\
+{Student Name: Chenyu Huang} \\
+{Email: chh217@eng.ucsd.edu} \\
+{PID: A53202846}
+\end{center}
+\vspace{6mm}
+
+\noindent
+{\bf Problem 1}
+
+\begin{enumerate}
+
+\item [(i)] Construct the pattern corresponding to the query:
+
+$$\{ s: sid \mid \exists u \in student [s(sid) = u(sid)] $$
+$$\wedge \forall p \in prerequisite[p(cid) = "CSE132X" $$
+$$\rightarrow \exists r \in record [r(sid) = s(sid) \wedge r(cid) = p(precid) \wedge r(grade) \geq 2]]\}.$$
+
+\clearpage
+
+\vspace{4mm}
+
+\end{enumerate}
+
+
+{\bf Problem 2}
+
+\begin{enumerate}
+
+\item [(i)] Find all keys of R:
+
+Since $A$ cannot be determined by any given functional dependency. $A$ must be part of the key. The keys of $R$ are:
+
+\begin{enumerate}
+\item [(1)] AB
+\item [(2)] AC
+\item [(3)] ABC
+\item [(4)] ABD
+\item [(5)] ABE
+\item [(6)] ACD
+\item [(7)] ACE
+\item [(8)] ABCD
+\item [(9)] ABCE
+\item [(10)] ACDE
+\item [(11)] ABCDE
+\end{enumerate}
+
+\item [(ii)] Find a BCNF decomposition of R with lossless join with respect to F.
+
+$ABCDE \ violation: C \rightarrow D$ since $C+ = CD$\\
+$CD, ABCE \ violation: B \rightarrow CE$ since $B+ = BCDE$\\
+$CD, BCE, AB \ no \ violation$
+
+
+\item [(iii)] Is the decomposition obtained in (ii) dependency preserving with respect to F.
+
+No
+
+\item [(iv)] Find 3NF decomposition of R with lossless join and dependency preserving with respect to F. Is the decomposition also in BCNF?
+
+Step 1, rewrite FDs:
+
+$C \rightarrow D, AC \rightarrow B, AC \rightarrow D, AC \rightarrow E, AB \rightarrow C, AB \rightarrow D, AB \rightarrow E, B \rightarrow C, B \rightarrow E$
+
+Step 2, remove redundant FDs:
+
+$AC \rightarrow E$ is redundant because $AC \rightarrow B, B \rightarrow E$\\
+$AB \rightarrow D$ is redundant because $AB \rightarrow C, C \rightarrow D$\\
+$F = \{C \rightarrow D, AC \rightarrow B, AC \rightarrow D, AB \rightarrow C, AB \rightarrow E, B \rightarrow C, B \rightarrow E\}$
+
+Step 3, remove redundant attributes from the LHS of FDs:
+$AC \rightarrow D$ is redundant because $C \rightarrow D$\\
+$AB \rightarrow C$ is redundant because $B \rightarrow C$\\
+$F = \{C \rightarrow D, B \rightarrow E, AC \rightarrow B, B \rightarrow C \}$
+
+
+
+
+\clearpage
+
+\vspace{4mm}
+
+\end{enumerate}
+
+\end{document}
